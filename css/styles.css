@@ -135,17 +135,8 @@ footer {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
   height: 100%;
-  width: 100%;
   border-radius: 8px !important;
   overflow: hidden;
-  
-  
-
-
-  
-  
-
-  
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
@@ -155,12 +146,6 @@ footer {
   width:100%;
   object-fit:cover;
   transition: 0.2s all;
-  
-
-  
-  
-
- 
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
@@ -175,16 +160,26 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
 
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.2s all;
+  border radius:2px;
+  
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
 }
 .experience-content ul li {
   margin-left: 16px;
@@ -197,6 +192,6 @@ footer {
   #reservation {
     width: 400px;
     position: fixed;
-
+    
   }
 }
